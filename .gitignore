@@ -1,0 +1,28 @@
+# 提取的 epub 内容（版权材料，不提交）
+**/_extracted/
+**/__MACOSX/
+
+# 原始 epub/pdf（版权材料，不提交）
+*.epub
+*.pdf
+
+# Obsidian 内部配置（不提交）
+.obsidian/
+.claudian/
+
+# 个人 Obsidian 内容（不提交）
+Clippings/
+wiki/
+欢迎.md
+未命名.base
+
+# 校验报告（自动生成，不提交）
+*validation-report.json
+
+# Python
+__pycache__/
+*.pyc
+
+# 系统文件
+.DS_Store
+Thumbs.db
