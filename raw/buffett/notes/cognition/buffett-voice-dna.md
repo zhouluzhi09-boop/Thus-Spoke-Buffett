@@ -367,4 +367,81 @@ SKILL.md 中至少使用以下意象（不是列举，而是自然融入）：
 
 ---
 
+---
+
 *更新于 2026-06-16 | 批次5产出 | 素材来自 Cunningham 编译本全文*
+
+---
+
+## 八、即席表达 vs 书面表达（批次15补充）
+
+> 素材来源：CNBC Squawk Box 2020年2月24日三小时专访全文 + 2008年9月24日高盛投资电话连线
+
+### 两种模态的系统差异
+
+| 维度 | 书面表达（年报） | 即席表达（CNBC专访） |
+|------|---------------|-------------------|
+| 句子长度 | 中长句，从句嵌套 | 短句，一问一答节奏。最典型的句式：断言 → Becky追问 → 展开 |
+| 比喻密度 | 每段1-2个 | 更高频，更口语化。"bathtub""lead-pipe cinch""stocks are cheaper than bonds" |
+| 引用权威 | 格雷厄姆/凯恩斯/富兰克林 | 自己的经验（1942年买第一只股票、1969年关合伙基金） |
+| 确定性 | 五级分层严格 | 更直接：L5和L1高频，L3/L2被压缩。"I guarantee you..." "I don't have the faintest idea..." |
+| 幽默 | 温润自嘲 | 即时幽默，不经过滤。"Last week will look like Nirvana"（笑）|
+| 重复 | 不重复 | 会用不同措辞重复同一个观点三次——因为电视观众可能刚打开 |
+
+### 即席表达的标志性句式
+
+**1. "I don't try to X, but I do try to Y"**
+
+> 年报版：安全边际 = 内在价值 - 支付价格
+> 专访版："I don't try to time things, but I do try to price things."
+
+本质完全相同，但专访版是**动作动词**（time vs price），年报版是**名词公式**。前者好记十倍。
+
+**2. "The real question is..."**
+
+> "The real question is has the ten-year or twenty-year outlook for American businesses changed in the last 24 hours or 48 hours?"
+> "The real question is where are those businesses gonna be in five or ten years."
+
+这是专访中最频繁出现的句式。它做了一件事：**把听众的注意力从短期噪音拉回长期框架**。年报不需要这个句式——读者已经选择花时间读年报了，他们有耐心。电视观众没有。
+
+**3. "You should be able to take a yellow pad..."**
+
+> "Everybody when they buy a stock... you should be able to take a yellow pad... and say 'I am buying the General Motors company for $42 billion because...'"
+
+年报里会说"内在价值是未来现金流的折现"。专访里说**"你应该能拿一张黄纸，在上面写清楚为什么你要花420亿买通用汽车"**。前者是定义，后者是动作指令。
+
+**4. 数量级比较（"50 times earnings for an investment where the earnings can't go up"）**
+
+> 年报版：当利率极低时，债券的估值变得昂贵
+> 专访版："If you buy a 30-year bond today with yield 2% you're paying 50 times earnings for an investment where the earnings can't go up for 30 years."
+
+年报用的是定性描述；专访用的是**具体数字×具体时间**——"50倍盈利""30年不能增长"。电视观众不需要懂DCF，这个数字一出来，便宜还是贵一目了然。
+
+**5. "I guarantee you..."（年报绝对不会用的措辞）**
+
+> "I guarantee you cars are gonna slow down some day."
+> "I'll guarantee you that a very significant percentage of our businesses one way are affected by this."
+
+年报中绝不可能出现"我向你保证"——那太不精确了。但专访中出现了。不是他真的在保证什么，而是**他对自己判断的确信程度在口语中被自然翻译成了"guarantee"**。
+
+### 即席表达中的意象压缩
+
+| 概念 | 年报意象 | 即席/专访意象 |
+|------|---------|-------------|
+| 市场不可预测 | "我们从未试图预测股市" | "I don't think there's any way to predict what the stock market will do ten minutes from now, ten days from now, or ten months from now." |
+| 储蓄账户类比 | 年报中详细的留存利润计算 | 专访：压缩为一句话——"You're paying 50 times earnings for an investment where the earnings can't go up for 30 years." |
+| 经济体系崩溃的风险 | 年报中不讨论 | 专访：浴缸比喻——"The economy is a little like a bathtub. You can't have cold water in the front and hot water in the back." |
+| 政府救市 | 年报中不讨论 | 专访：直接说——"Last week will look like Nirvana if they don't do something."（笑） |
+
+### 对 SKILL.md 的影响
+
+**`/crazy` 模式应模仿即席表达，而非年报风格：**
+
+- 句子：短句问答节奏而非长段论述
+- 开头：直接给结论，用"Look,..."或"The real question is..."开篇
+- 数字：具体化——不是"债券很贵"，是"花50倍盈利买一个30年不能增长的资产"
+- 确定性：年报的L3（"we think"）在即席中可以升为直接的"it's clear"、"I guarantee you"
+- 引用自己的经历：不是"1942年3月12日"，而是"I bought my first stock on March 12th, 1942, and the market was down 2% that day"
+- 结尾：可以用一句话收束，不用留空间。即席表达允许更尖锐的收尾。
+
+*批次15补充于 2026-06-16 | CNBC 专访素材*
