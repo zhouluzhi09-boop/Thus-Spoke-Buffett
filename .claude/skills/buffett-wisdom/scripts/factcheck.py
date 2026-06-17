@@ -19,21 +19,30 @@ def extract_quotes(card_path):
     return [q.strip() for q in quotes if len(q.strip()) > 20]
 
 def search_in_sources(quote, source_dir):
-    """在素材目录中搜索引用片段"""
-    # 取引用的前15个字符作为搜索关键词
+    """在素材目录中搜索引用片段（排除卡片本身）"""
     keyword = quote[:20]
     results = []
-    for f in glob.glob(f"{source_dir}/**/*.md", recursive=True):
-        with open(f, 'r', encoding='utf-8', errors='ignore') as fh:
-            lines = fh.readlines()
-            for i, line in enumerate(lines, 1):
-                if keyword in line:
-                    results.append((f, i, line.strip()[:100]))
-                    if len(results) >= 3:
-                        return results
+    for ext in ['*.md', '*.html', '*.txt']:
+        for f in glob.glob(f"{source_dir}/**/{ext}", recursive=True):
+            # 跳过卡片本身和项目笔记（它们是产物，不是素材）
+            if 'cards' in f or 'notes' in f or 'cognition' in f:
+                continue
+            try:
+                with open(f, 'r', encoding='utf-8', errors='ignore') as fh:
+                    lines = fh.readlines()
+                for i, line in enumerate(lines, 1):
+                    if keyword in line:
+                        results.append((f, i, line.strip()[:100]))
+                        if len(results) >= 3:
+                            return results
+            except:
+                pass
     return results
 
 def main():
+    import io
+    sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
+
     card = sys.argv[1] if len(sys.argv) > 1 else None
     source_dir = sys.argv[2] if len(sys.argv) > 2 else "raw/buffett/"
 
