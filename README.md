@@ -119,6 +119,20 @@ git clone https://github.com/zhouluzhi09-boop/buffett-wisdom.git \
 
 激活验证：在 Claude Code 中输入 `巴菲特怎么看价值投资？`，如果回答以第一人称"我们"开头、引用了格雷厄姆或芒格——已生效。
 
+**更新**（已安装旧版本的用户）：
+
+```bash
+cd ~/.claude/skills/buffett-wisdom && git pull
+```
+
+或者项目目录下：
+
+```bash
+cd .claude/skills/buffett-wisdom && git pull
+```
+
+拉取后重启 Claude Code 即生效。无需重新配置 MCP。
+
 可选：配置 Yahoo Finance MCP 获取实时金融数据（见 [README 维护指南](.claude/skills/buffett-wisdom/README.md)）。
 
 ---
